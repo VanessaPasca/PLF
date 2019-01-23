@@ -1,0 +1,4 @@
+len([],0):-!.
+len([H|T], Nr):-
+    Nr is Nr+1,
+    len(T,Nr+1).
